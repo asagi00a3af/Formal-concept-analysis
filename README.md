@@ -1,2 +1,11 @@
-# Formal-concept-analysis
-Python用の形式概念分析(Formal Concept Analysis)モジュール
+#形式概念分析:Formal Concept Analysis
+これは形式概念分析のpython用のモジュールである。
+
+自身の研究用に作成するものである。
+
+#形式概念分析とは
+
+#参考文献、資料
+鈴木 治、室伏 俊明、形式概念分析ｰ入門・支援ソフト・応用ｰ、日本知能情報ファジィ学会誌(2007) 103-142
+
+#LICENSE
