@@ -104,9 +104,10 @@ def next_closure_generation(context):
 
 if __name__ == '__main__':
 #今はここは作った関数のテストを書いてある
-    context = pd.read_csv('./test/hoge.csv',header=None)
-    lat = next_closure_generation(context)
-    G = create_Hasse_diagram(lat)
-    A = nx.nx_agraph.to_agraph(G)
-    A.layout()
-    A.draw('./test/out.pdf')
+    # context = pd.read_csv('./test/hoge.csv',header=None)
+    # lat = next_closure_generation(context)
+    # G = create_Hasse_diagram(lat)
+    # A = nx.nx_agraph.to_agraph(G)
+    # A.layout()
+    # A.draw('./test/out.pdf')
+    pass
