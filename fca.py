@@ -15,9 +15,8 @@ class FormalConceptAnalysys:
         return:
             cotnext:pandasのフレーム形式のデータベース
         '''
-        context = pd.read_csv(name,header=None)
+        self.context = pd.read_csv(name,header=None)
         return context
-
 
     def intuitive_generation(self, context):
         '''
@@ -53,7 +52,7 @@ class FormalConceptAnalysys:
         G.add_edges_from(F)
         return G
 
-    def next_closure_generation(self, context):
+    def next_closure_generation(self, fsdfcontext):
         '''
         NextClosureコンセプトラティス生成アルゴリズム
         argument:
